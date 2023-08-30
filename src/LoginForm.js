@@ -10,14 +10,12 @@ const LoginForm = () => {
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
 
-  const handleLogin = () => {
-    // Зчитати дані з localStorage та виконати перевірку для входу
-  };
+  const handleLogin = () => {};
 
   return (
     <div className="login-form">
       <div className="profile-icon">
-        <AiOutlineUser size={40} /> {/* Використовуємо іконку AiOutlineUser */}
+        <AiOutlineUser size={40} /> {/* Використовую іконку AiOutlineUser */}
       </div>
       <h2>Sign in</h2>
       <div className="input-group">

@@ -1,4 +1,3 @@
-/* RegistrationForm.css */
 .registration-form {
   font-size: 14px;
   width: 300px;
@@ -9,12 +8,12 @@
   background-color: #212121;
   color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Вирівнювання тексту по центру */
-  justify-content: flex-start; /* Використовуйте конкретне значення "flex-start" */
+  text-align: center;
+  justify-content: flex-start;
 }
 
 .registration-form h2 {
-  margin-bottom: 20px; /* Додайте проміжок між заголовком і полями вводу */
+  margin-bottom: 20px;
 }
 
 .input-group {
@@ -31,8 +30,6 @@
   text-align: start;
 }
 
-/* RegistrationForm.css */
-
 .remember-me {
   display: flex;
   align-items: center;
@@ -46,13 +43,12 @@
 }
 
 .remember-me span {
-  flex-grow: 1; /* Розтягнути текст на всю доступну ширину */
+  flex-grow: 1;
 }
 
 .input-group-item {
   display: flex;
   justify-content: space-between;
-  /* margin-bottom: 5px; */
   align-items: center;
 }
 
@@ -96,7 +92,7 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ff69b4; /* Рожевий колір */
+  background-color: #ff69b4;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -105,7 +101,7 @@ button:hover {
 }
 
 .pink-bg {
-  background-color: #ff69b4; /* Рожевий колір */
+  background-color: #ff69b4;
 }
 
 ul {

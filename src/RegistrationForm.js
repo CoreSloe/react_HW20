@@ -20,7 +20,6 @@ const RegistrationForm = () => {
   const [subscribe, setSubscribe] = useState(false);
 
   const handleRegistration = () => {
-    // Ваша логіка обробки реєстрації
     localStorage.setItem("userEmail", formData.email);
     localStorage.setItem("userPassword", formData.password);
     localStorage.setItem("userSubscribe", subscribe);
@@ -80,7 +79,6 @@ const RegistrationForm = () => {
   };
 
   useEffect(() => {
-    // Зчитування стану subscribe з localStorage при завантаженні компонента
     const savedSubscribe = localStorage.getItem("userSubscribe");
     setSubscribe(savedSubscribe === "true");
   }, []);
@@ -88,7 +86,7 @@ const RegistrationForm = () => {
   return (
     <div className="registration-form">
       <div className="profile-icon">
-        <AiOutlineUser size={40} /> {/* Використовуємо іконку AiOutlineUser */}
+        <AiOutlineUser size={40} /> {/* Використовую іконку AiOutlineUser */}
       </div>
       <h2>Sign up</h2>
       <div className="input-group">
