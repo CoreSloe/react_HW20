@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react_HW19/static/css/main.a2539421.css",
-    "main.js": "/react_HW19/static/js/main.9503de1e.js",
-    "static/js/787.2d64c7d6.chunk.js": "/react_HW19/static/js/787.2d64c7d6.chunk.js",
-    "index.html": "/react_HW19/index.html",
-    "main.a2539421.css.map": "/react_HW19/static/css/main.a2539421.css.map",
-    "main.9503de1e.js.map": "/react_HW19/static/js/main.9503de1e.js.map",
-    "787.2d64c7d6.chunk.js.map": "/react_HW19/static/js/787.2d64c7d6.chunk.js.map"
+    "main.css": "/react_HW20/static/css/main.a2539421.css",
+    "main.js": "/react_HW20/static/js/main.3aac86c1.js",
+    "static/js/787.2d64c7d6.chunk.js": "/react_HW20/static/js/787.2d64c7d6.chunk.js",
+    "index.html": "/react_HW20/index.html",
+    "main.a2539421.css.map": "/react_HW20/static/css/main.a2539421.css.map",
+    "main.3aac86c1.js.map": "/react_HW20/static/js/main.3aac86c1.js.map",
+    "787.2d64c7d6.chunk.js.map": "/react_HW20/static/js/787.2d64c7d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2539421.css",
-    "static/js/main.9503de1e.js"
+    "static/js/main.3aac86c1.js"
   ]
 }
